@@ -18,9 +18,12 @@ window.setInterval(function(){
 } 
 
 var time = hours + ":" + minutes + ":" + seconds;
+//var hex = "#"+ hours + minutes + seconds;
 
 console.log(time);
 
 $(".clock").text(time);
+
+//$('.hex').text(hex);
 
 } , 1000);
